@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LigaBBVAMX [
+    <!ELEMENT LigaBBVAMX (Partido+)>
+    <!ELEMENT Partido (Fecha, Equipos, Marcador, Jugadores+)>
+    <!ELEMENT Fecha (#PCDATA)>
+    <!ELEMENT Equipos (Local, Visitante)>
+    <!ELEMENT Local (#PCDATA)>
+    <!ELEMENT Visitante (#PCDATA)>
+    <!ELEMENT Marcador (GolesLocal, GolesVisitante)>
+    <!ELEMENT GolesLocal (#PCDATA)>
+    <!ELEMENT GolesVisitante (#PCDATA)>
+    <!ELEMENT Jugadores (Jugador+)>
+    <!ELEMENT Jugador (Nombre, Minuto)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Minuto (#PCDATA)>
+]>
+<LigaBBVAMX>
+    <Partido>
+        <Fecha>Domingo 21 de Marzo 2023</Fecha>
+        <Equipos>
+            <Local>Toluca</Local>
+            <Visitante>América</Visitante>
+        </Equipos>
+        <Marcador>
+            <GolesLocal>1</GolesLocal>
+            <GolesVisitante>1</GolesVisitante>
+        </Marcador>
+        <Jugadores>
+            <Jugador>
+                <Nombre>Maximiliano Araujo</Nombre>
+                <Minuto>54</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Tomás Belmonte</Nombre>
+                <Minuto>84</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Diego Valdés</Nombre>
+                <Minuto>25</Minuto>
+            </Jugador>
+        </Jugadores>
+    </Partido>
+    <Partido>
+        <Fecha>Domingo 21 de Marzo 2023</Fecha>
+        <Equipos>
+            <Local>Cruz Azul</Local>
+            <Visitante>Querétaro</Visitante>
+        </Equipos>
+        <Marcador>
+            <GolesLocal>1</GolesLocal>
+            <GolesVisitante>3</GolesVisitante>
+        </Marcador>
+        <Jugadores>
+            <Jugador>
+                <Nombre>Rodolfo Rotondi</Nombre>
+                <Minuto>45+5</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Raúl Sandoval</Nombre>
+                <Minuto>50</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Raúl Zúñiga</Nombre>
+                <Minuto>77</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Nicolas Cordero</Nombre>
+                <Minuto>87</Minuto>
+            </Jugador>
+        </Jugadores>
+    </Partido>
+    <Partido>
+        <Fecha>Domingo 21 de Marzo 2023</Fecha>
+        <Equipos>
+            <Local>Santos</Local>
+            <Visitante>Necaxa</Visitante>
+        </Equipos>
+        <Marcador>
+            <GolesLocal>2</GolesLocal>
+            <GolesVisitante>5</GolesVisitante>
+        </Marcador>
+        <Jugadores>
+            <Jugador>
+                <Nombre>Harold Preciado</Nombre>
+                <Minuto>70</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Harold Preciado</Nombre>
+                <Minuto>83</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Alejandro Andrade</Nombre>
+                <Minuto>32</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Alejandro Andrade</Nombre>
+                <Minuto>52</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Ricardo Monreal</Nombre>
+                <Minuto>49</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Fernando Arce</Nombre>
+                <Minuto>64</Minuto>
+            </Jugador>
+            <Jugador>
+                <Nombre>Alexis Peña</Nombre>
+                <Minuto>67</Minuto>
+            </Jugador>
+        </Jugadores>
+    </Partido>
+</LigaBBVAMX>
